@@ -1,0 +1,23 @@
+
+{
+    "name": "omar-khan-sessions1",
+    "description": "Web Session Generator",
+    "logo": "https://files.catbox.moe/12cp09.jpg",
+    "repository": "https://github.com/omar9137/omar-khan-sessions1",
+    "keywords": ["Malvin-Tech"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      },
+      "MESSAGE": {
+        "description": "Just Leave This Blank",
+        "value": "",
+        "required": false 
+      }
+    }   
+
+}
